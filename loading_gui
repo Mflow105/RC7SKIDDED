@@ -1,0 +1,428 @@
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local TextBox = Instance.new("TextBox")
+local TextButton_4 = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local Exeute = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local ImageButton = Instance.new("ImageButton")
+local Frame_4 = Instance.new("Frame")
+local ImageButton_2 = Instance.new("ImageButton")
+local Frame_5 = Instance.new("Frame")
+local ImageButton_3 = Instance.new("ImageButton")
+local Frame_6 = Instance.new("Frame")
+local ImageButton_4 = Instance.new("ImageButton")
+local Frame_7 = Instance.new("Frame")
+local ImageButton_5 = Instance.new("ImageButton")
+local Frame_8 = Instance.new("Frame")
+local ImageButton_6 = Instance.new("ImageButton")
+local Frame_9 = Instance.new("Frame")
+local ImageButton_7 = Instance.new("ImageButton")
+local Frame_10 = Instance.new("Frame")
+local Frame_11 = Instance.new("Frame")
+local Frame_12 = Instance.new("Frame")
+local Frame_13 = Instance.new("Frame")
+
+--Properties:
+
+Frame.Parent = game.StarterGui.ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.340197623, 0, 0.174999997, 0)
+Frame.Size = UDim2.new(0.310489923, 0, 0.0470588244, 0)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.020127682, 0, 0.375, 0)
+ImageLabel.Size = UDim2.new(0.0375000015, 0, 0.375, 0)
+ImageLabel.Image = "rbxassetid://18619891944"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0727928653, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.702729046, 0, 1, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "RC7"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.940067828, 0, 0, 0)
+TextButton.Size = UDim2.new(0.0582342893, 0, 1, 0)
+TextButton.Font = Enum.Font.Michroma
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.852716386, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0.0582342893, 0, 1, 0)
+TextButton_2.Font = Enum.Font.Michroma
+TextButton_2.Text = "□"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.759125531, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0.0582342893, 0, 1, 0)
+TextButton_3.Font = Enum.Font.Michroma
+TextButton_3.Text = "-"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+Main.Name = "Main"
+Main.Parent = Frame
+Main.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(7.94699702e-08, 0, 1, 0)
+Main.Size = UDim2.new(0.999999762, 0, 13.752943, 0)
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.020127682, 0, 0.0184164681, 0)
+ScrollingFrame.Size = UDim2.new(0.87997967, 0, 0.68976295, 0)
+ScrollingFrame.BottomImage = "rbxassetid://3062506202"
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
+ScrollingFrame.MidImage = "rbxassetid://3062506202"
+ScrollingFrame.TopImage = "rbxassetid://3062506202"
+
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 700, 0, 10000)
+
+TextBox.Parent = ScrollingFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(-0.00295915175, 0, -0.0673651025, 0)
+TextBox.Size = UDim2.new(2.07146931, 0, 35.4552879, 0)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.PlaceholderText = "1"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+TextButton_4.Parent = Main
+TextButton_4.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+TextButton_4.BorderColor3 = Color3.fromRGB(1, 153, 170)
+TextButton_4.BorderSizePixel = 2
+TextButton_4.Position = UDim2.new(0.0188562106, 0, 0.708179414, 0)
+TextButton_4.Size = UDim2.new(0.287682056, 0, 0.0861677974, 0)
+TextButton_4.Font = Enum.Font.Arial
+TextButton_4.Text = "Attach"
+TextButton_4.TextColor3 = Color3.fromRGB(1, 153, 170)
+TextButton_4.TextSize = 18.000
+
+Clear.Name = "Clear"
+Clear.Parent = Main
+Clear.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Clear.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Clear.BorderSizePixel = 2
+Clear.Position = UDim2.new(0.585230887, 0, 0.708179414, 0)
+Clear.Size = UDim2.new(0.303650171, 0, 0.0861677974, 0)
+Clear.Font = Enum.Font.Arial
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(1, 153, 170)
+Clear.TextSize = 18.000
+
+Exeute.Name = "Exeute"
+Exeute.Parent = Main
+Exeute.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Exeute.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Exeute.BorderSizePixel = 2
+Exeute.Position = UDim2.new(0.306538224, 0, 0.708179414, 0)
+Exeute.Size = UDim2.new(0.278692603, 0, 0.0861677974, 0)
+Exeute.Font = Enum.Font.Arial
+Exeute.Text = "Execute"
+Exeute.TextColor3 = Color3.fromRGB(1, 153, 170)
+Exeute.TextSize = 18.000
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_2.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_2.BorderSizePixel = 2
+Frame_2.Position = UDim2.new(0.921349585, 0, 0.0184164681, 0)
+Frame_2.Size = UDim2.new(0.0786504, 0, 0.330955923, 0)
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-1.61398611e-06, 0, 0.294228554, 0)
+TextLabel_2.Size = UDim2.new(0.999995947, 0, 0.135540888, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "C"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 39.000
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(-1.61398611e-06, 0, 0.474214017, 0)
+TextLabel_3.Size = UDim2.new(0.999995947, 0, 0.162823364, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "7"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 39.000
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-1.61398611e-06, 0, 0.0669458434, 0)
+TextLabel_4.Size = UDim2.new(0.999995947, 0, 0.227282718, 0)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "R"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 39.000
+
+Frame_3.Parent = Main
+Frame_3.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_3.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_3.BorderSizePixel = 2
+Frame_3.Position = UDim2.new(0.921349585, 0, 0.349372387, 0)
+Frame_3.Size = UDim2.new(0.0786504075, 0, 0.0815899596, 0)
+
+ImageButton.Parent = Frame_3
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Size = UDim2.new(0.978411317, 0, 1.00000036, 0)
+ImageButton.Image = "rbxassetid://18620336730"
+
+Frame_4.Parent = Main
+Frame_4.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_4.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_4.BorderSizePixel = 2
+Frame_4.Position = UDim2.new(0.921349585, 0, 0.430962354, 0)
+Frame_4.Size = UDim2.new(0.0786504075, 0, 0.0815899596, 0)
+
+ImageButton_2.Parent = Frame_4
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_2.BackgroundTransparency = 1.000
+ImageButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_2.BorderSizePixel = 0
+ImageButton_2.Size = UDim2.new(0.978411317, 0, 1.00000036, 0)
+ImageButton_2.Image = "http://www.roblox.com/asset/?id=77146605"
+
+Frame_5.Parent = Main
+Frame_5.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_5.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_5.BorderSizePixel = 2
+Frame_5.Position = UDim2.new(0.921349585, 0, 0.512552321, 0)
+Frame_5.Size = UDim2.new(0.0786504075, 0, 0.0815899596, 0)
+
+ImageButton_3.Parent = Frame_5
+ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_3.BackgroundTransparency = 1.000
+ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_3.BorderSizePixel = 0
+ImageButton_3.Size = UDim2.new(0.978411317, 0, 1.00000036, 0)
+ImageButton_3.Image = "rbxassetid://160416815"
+
+Frame_6.Parent = Main
+Frame_6.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_6.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_6.BorderSizePixel = 2
+Frame_6.Position = UDim2.new(0.921349585, 0, 0.594142258, 0)
+Frame_6.Size = UDim2.new(0.0786504075, 0, 0.0815899596, 0)
+
+ImageButton_4.Parent = Frame_6
+ImageButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_4.BackgroundTransparency = 1.000
+ImageButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_4.BorderSizePixel = 0
+ImageButton_4.Size = UDim2.new(0.978411317, 0, 1.00000036, 0)
+ImageButton_4.Image = "rbxassetid://16933976718"
+
+Frame_7.Parent = Main
+Frame_7.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_7.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_7.BorderSizePixel = 2
+Frame_7.Position = UDim2.new(0.921349585, 0, 0.675732195, 0)
+Frame_7.Size = UDim2.new(0.0786504075, 0, 0.0815899596, 0)
+
+ImageButton_5.Parent = Frame_7
+ImageButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_5.BackgroundTransparency = 1.000
+ImageButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_5.BorderSizePixel = 0
+ImageButton_5.Position = UDim2.new(-0.0264435485, 0, 0, 0)
+ImageButton_5.Size = UDim2.new(0.978411317, 0, 1.00000036, 0)
+ImageButton_5.Image = "rbxassetid://160550623"
+
+Frame_8.Parent = Main
+Frame_8.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_8.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_8.BorderSizePixel = 2
+Frame_8.Position = UDim2.new(0.921349585, 0, 0.757322192, 0)
+Frame_8.Size = UDim2.new(0.0786504075, 0, 0.0815899596, 0)
+
+ImageButton_6.Parent = Frame_8
+ImageButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_6.BackgroundTransparency = 1.000
+ImageButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_6.BorderSizePixel = 0
+ImageButton_6.Size = UDim2.new(0.978411317, 0, 1.00000036, 0)
+ImageButton_6.Image = "rbxassetid://18620489462"
+
+Frame_9.Parent = Main
+Frame_9.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_9.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_9.BorderSizePixel = 2
+Frame_9.Position = UDim2.new(0.921349585, 0, 0.838912129, 0)
+Frame_9.Size = UDim2.new(0.0786504075, 0, 0.0815899596, 0)
+
+ImageButton_7.Parent = Frame_9
+ImageButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton_7.BackgroundTransparency = 1.000
+ImageButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_7.BorderSizePixel = 0
+ImageButton_7.Size = UDim2.new(0.978411317, 0, 1.00000036, 0)
+ImageButton_7.Image = "rbxassetid://11367019940"
+
+Frame_10.Parent = Main
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.0255707297, 0, 0.817516744, 0)
+Frame_10.Size = UDim2.new(0.846209407, 0, 0.161630481, 0)
+
+Frame_11.Parent = Frame_10
+Frame_11.BackgroundColor3 = Color3.fromRGB(168, 168, 168)
+Frame_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0.968989551, 0, 0, 0)
+Frame_11.Size = UDim2.new(0.0424279571, 0, 0.999999642, 0)
+
+Frame_12.Parent = Main
+Frame_12.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_12.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_12.BorderSizePixel = 2
+Frame_12.Position = UDim2.new(0.900106609, 0, 0.0184163302, 0)
+Frame_12.Size = UDim2.new(0.0212421604, 0, 0.979399085, 0)
+
+Frame_13.Parent = Main
+Frame_13.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame_13.BorderColor3 = Color3.fromRGB(1, 153, 170)
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(3.17879824e-07, 0, 0.995631516, 0)
+Frame_13.Size = UDim2.new(0.999999344, 0, 0.00436873268, 0)
+
+-- Scripts:
+
+local function DCGFTZY_fake_script() -- Frame.Drag 
+	local script = Instance.new('LocalScript', Frame)
+
+	
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+		dragToggle = nil
+		local dragSpeed = 0
+		dragInput = nil
+		dragStart = nil
+		local dragPos = nil
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	dragify(script.Parent)
+end
+coroutine.wrap(DCGFTZY_fake_script)()
+local function WUSJTA_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local execute = script.Parent.Parent.Exeute
+	local clear = script.Parent.Parent.Clear
+	script.Parent.MouseButton1Click:Connect(function()
+		execute.Visible = true
+		clear.Visible = true
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(WUSJTA_fake_script)()
+local function TMGH_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local textbox = script.Parent.Parent.TextBox
+	script.Parent.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(TMGH_fake_script)()
+local function WDKU_fake_script() -- Exeute.LocalScript 
+	local script = Instance.new('LocalScript', Exeute)
+
+	local textbox = script.Parent.Parent.ScrollingFrame.TextBox
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(WDKU_fake_script)()
